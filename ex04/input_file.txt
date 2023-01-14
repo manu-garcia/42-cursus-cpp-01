@@ -1,0 +1,7 @@
+This is an "input text" and should be equal to "output text"!
+New line
+This is an "input text" and should be equal to "output text"!
+
+
+This is an "inpur text" and should not be equal to "output text"!
+
