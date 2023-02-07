@@ -2,7 +2,7 @@ NAME 		= brain
 SRC_DIR		= ./
 SRC 		= 	$(SRC_DIR)/main.cpp \
 
-CC 			= c++
+CC 			= clang++
 INCLUDES	= 
 CFLAGS 		= -Wall -Werror -Wextra -std=c++98 $(INCLUDES)
 OBJECTS		= 	$(SRC:.cpp=.o)

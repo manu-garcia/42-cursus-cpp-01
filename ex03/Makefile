@@ -5,7 +5,7 @@ SRC 		= 	$(SRC_DIR)/main.cpp \
 				$(SRC_DIR)/HumanA.cpp \
 				$(SRC_DIR)/HumanB.cpp \
 
-CC 			= c++
+CC 			= clang++
 INCLUDES	= 
 CFLAGS 		= -Wall -Werror -Wextra -std=c++98 $(INCLUDES)
 OBJECTS		= 	$(SRC:.cpp=.o)
