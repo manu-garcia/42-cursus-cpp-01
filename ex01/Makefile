@@ -4,7 +4,7 @@ SRC 		= 	$(SRC_DIR)/main.cpp \
 				$(SRC_DIR)/zombieHorde.cpp \
 				$(SRC_DIR)/Zombie.cpp \
 
-CC 			= clang++
+CC 			= c++
 INCLUDES	= 
 CFLAGS 		= -Wall -Werror -Wextra -std=c++98 $(INCLUDES)
 OBJECTS		= 	$(SRC:.cpp=.o)
